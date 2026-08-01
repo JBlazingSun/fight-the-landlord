@@ -10,7 +10,6 @@
 [![Docker Image Size](https://img.shields.io/docker/image-size/palemoky/fight-the-landlord/latest)](https://hub.docker.com/r/palemoky/fight-the-landlord)
 [![Test](https://github.com/palemoky/fight-the-landlord/actions/workflows/test.yml/badge.svg)](https://github.com/palemoky/fight-the-landlord/actions/workflows/test.yml)
 [![Release](https://github.com/palemoky/fight-the-landlord/actions/workflows/release.yml/badge.svg)](https://github.com/palemoky/fight-the-landlord/actions/workflows/release.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/palemoky/fight-the-landlord)](https://goreportcard.com/report/github.com/palemoky/fight-the-landlord)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 </div>
@@ -65,6 +64,8 @@ ddz
 ```
 
 支持的牌型和按键见 [游戏规则](#游戏规则) / [常用按键](#常用按键)
+
+> **Windows 10 用户提示**：游戏界面使用了 emoji 图标，Windows 10 自带的传统 cmd / PowerShell 窗口（conhost）不支持彩色 emoji 渲染，会显示异常。建议改用 [Windows Terminal](https://aka.ms/terminal)（Microsoft Store 免费安装，Windows 11 已默认内置）运行客户端。
 
 ### 服务端部署
 
